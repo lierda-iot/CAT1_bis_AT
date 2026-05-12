@@ -149,7 +149,7 @@ html_js_files = [
 def _load_model_switcher_config():
     """Return the model switcher configuration injected into each HTML page."""
     return {
-        "currentModel": "CAT1.bis_OpenCPU",
+        "currentModel": "CAT1.bis_AT",
         # When true, switching models keeps the current language and page path.
         # Example: https://ec71x.example.com/zh_CN/about.html ->
         # https://ec716s.example.com/zh_CN/about.html
@@ -164,7 +164,7 @@ def _load_model_switcher_config():
             {
                  "name": "CAT1.bis_AT",
                  "label": "CAT1.bis_AT",
-                 "url": "https://opendocs.lierda.com/docs/EC71X_OpenSDK/zh_CN/index.html",
+                 "url": "https://opendocs.lierda.com/docs/CAT1_bis_AT/zh_CN/index.html",
             },
         ],
     }
