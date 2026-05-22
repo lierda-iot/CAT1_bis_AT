@@ -12,9 +12,6 @@
    :maxdepth: 4
 
    general/index
-   hardware/index
-   software/index
-   components/index
-   tools/index
-   examples/index
+   cat.1/index
+   nb-iot/index
    about
